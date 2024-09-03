@@ -1,0 +1,239 @@
+|2024-09-03 14:56:21,566|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.common:165|Execute|base64ToImage|Response: G:\tmp.ico|
+|2024-09-03 14:56:21,578|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|__main__:0|Execute|Application|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:56:21,612|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|__main__:0|Execute|Application|Response: <__main__.Application object at 0x000001CD46419F70>|
+|2024-09-03 14:57:09,544|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Request: (<__main__.Application object at 0x000001CD46419F70>,)|{}|
+|2024-09-03 14:57:09,546|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Request: (<utils.cpcn.Cpcn object at 0x000001CD479D7D40>, '')|{'hash_way': 'SM4'}|
+|2024-09-03 14:57:09,546|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Response: |
+|2024-09-03 14:57:09,546|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E37C50>, '')|{'secretKey': '5253BEDFE5EF3ACD', 'code': 'sm4', 'hashFunction': ''}|
+|2024-09-03 14:57:09,546|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E37C50>, '', '5253BEDFE5EF3ACD', 'sm4')|{}|
+|2024-09-03 14:57:09,546|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: ndFL/la1rhgQ8F4K9bgK8w==|
+|2024-09-03 14:57:09,546|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: ndFL/la1rhgQ8F4K9bgK8w==|
+|2024-09-03 14:57:09,547|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:01,657|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Request: (<__main__.Application object at 0x000001CD46419F70>,)|{}|
+|2024-09-03 14:58:01,657|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Request: (<utils.cpcn.Cpcn object at 0x000001CD479D7D40>, '123')|{'hash_way': 'SM4'}|
+|2024-09-03 14:58:01,657|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Response: 123|
+|2024-09-03 14:58:01,658|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E546E0>, '123')|{'secretKey': '5253BEDFE5EF3ACD', 'code': 'sm4', 'hashFunction': ''}|
+|2024-09-03 14:58:01,658|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E546E0>, '123', '5253BEDFE5EF3ACD', 'sm4')|{}|
+|2024-09-03 14:58:01,658|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: f7UXe0LdRPzA7ZQHIKNT0g==|
+|2024-09-03 14:58:01,658|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: f7UXe0LdRPzA7ZQHIKNT0g==|
+|2024-09-03 14:58:01,658|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:03,768|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Request: (<__main__.Application object at 0x000001CD46419F70>,)|{}|
+|2024-09-03 14:58:03,769|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Request: (<utils.cpcn.Cpcn object at 0x000001CD479D7D40>, '123')|{'hash_way': '3DES'}|
+|2024-09-03 14:58:03,769|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Response: 123|
+|2024-09-03 14:58:03,770|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E54740>, '123')|{'secretKey': '5253BEDFE5EF3ACD', 'code': '3des', 'hashFunction': ''}|
+|2024-09-03 14:58:03,770|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E54740>, '123', '5253BEDFE5EF3ACD', '3des')|{}|
+|2024-09-03 14:58:03,770|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:66|Execute|pkcs5|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E54740>, '123')|{}|
+|2024-09-03 14:58:03,770|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:66|Execute|pkcs5|Response: b'123\x05\x05\x05\x05\x05'|
+|2024-09-03 14:58:03,770|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 494DF174CE14DFFF|
+|2024-09-03 14:58:03,771|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 494DF174CE14DFFF|
+|2024-09-03 14:58:03,771|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:06,072|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Request: (<__main__.Application object at 0x000001CD46419F70>,)|{}|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Request: (<utils.cpcn.Cpcn object at 0x000001CD479D7D40>, '123')|{'hash_way': 'MD5'}|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Response: 123|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E548F0>, '123')|{'secretKey': '5253BEDFE5EF3ACD', 'code': 'md5', 'hashFunction': ''}|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E548F0>, '123', '5253BEDFE5EF3ACD', 'md5')|{}|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 202cb962ac59075b964b07152d234b70|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 202cb962ac59075b964b07152d234b70|
+|2024-09-03 14:58:06,073|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:07,992|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Request: (<__main__.Application object at 0x000001CD46419F70>,)|{}|
+|2024-09-03 14:58:07,993|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Request: (<utils.cpcn.Cpcn object at 0x000001CD479D7D40>, '123')|{'hash_way': 'UNIONSM3'}|
+|2024-09-03 14:58:07,993|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.cpcn:26|Execute|dealOriginJson|Response: 123|
+|2024-09-03 14:58:07,993|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E546E0>, '123')|{'secretKey': '5253BEDFE5EF3ACD', 'code': 'unionsm3', 'hashFunction': ''}|
+|2024-09-03 14:58:07,993|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E546E0>, '123', '5253BEDFE5EF3ACD', 'unionsm3')|{}|
+|2024-09-03 14:58:07,994|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 293A99F0546A6915A40FF29D2A7EA8B875DEF59E7AFA3E5F09AD62CD748C1857|
+|2024-09-03 14:58:07,994|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 293A99F0546A6915A40FF29D2A7EA8B875DEF59E7AFA3E5F09AD62CD748C1857|
+|2024-09-03 14:58:07,994|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:136|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:10,582|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application2|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:58:10,596|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application2|Response: <__main__.Application2 object at 0x000001CD47E36AE0>|
+|2024-09-03 14:58:11,402|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:499|Execute|mainEncrypt|Request: (<__main__.Application2 object at 0x000001CD47E36AE0>,)|{}|
+|2024-09-03 14:58:11,403|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1')|{'secretKey': '', 'code': 'sm4'}|
+|2024-09-03 14:58:11,403|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1', '', 'sm4')|{}|
+|2024-09-03 14:58:11,403|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: mAEMgvB6YvDctb0klA+Ijw==|
+|2024-09-03 14:58:11,403|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: mAEMgvB6YvDctb0klA+Ijw==|
+|2024-09-03 14:58:11,403|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1')|{'secretKey': '', 'code': 'md5'}|
+|2024-09-03 14:58:11,403|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1', '', 'md5')|{}|
+|2024-09-03 14:58:11,404|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: c4ca4238a0b923820dcc509a6f75849b|
+|2024-09-03 14:58:11,404|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: c4ca4238a0b923820dcc509a6f75849b|
+|2024-09-03 14:58:11,404|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1')|{'secretKey': '', 'code': 'sm3'}|
+|2024-09-03 14:58:11,404|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1', '', 'sm3')|{}|
+|2024-09-03 14:58:11,404|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: CBDDDB8E8421B23498480570D7D75330538A6882F5DFDC3B64115C647F3328C4|
+|2024-09-03 14:58:11,405|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: CBDDDB8E8421B23498480570D7D75330538A6882F5DFDC3B64115C647F3328C4|
+|2024-09-03 14:58:11,405|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1')|{'secretKey': '', 'code': 'unionsm3'}|
+|2024-09-03 14:58:11,405|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1', '', 'unionsm3')|{}|
+|2024-09-03 14:58:11,405|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: D5744897E47FB6D78B726E9FF0C9FA70E0013A0D4F0A757AF8EC0B812664B828|
+|2024-09-03 14:58:11,405|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: D5744897E47FB6D78B726E9FF0C9FA70E0013A0D4F0A757AF8EC0B812664B828|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1')|{'secretKey': '', 'code': 'sha256'}|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1', '', 'sha256')|{}|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1')|{'secretKey': '', 'code': 'base64'}|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '1', '', 'base64')|{}|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: MQ==|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: MQ==|
+|2024-09-03 14:58:11,406|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:314|Execute|getUnixTime|Request: ('1',)|{'mod': 'time2data'}|
+|2024-09-03 14:58:11,407|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:314|Execute|getUnixTime|Response: 1970-01-01 08:00:01|
+|2024-09-03 14:58:11,407|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:350|Execute|getUnicode|Request: ('1',)|{}|
+|2024-09-03 14:58:11,407|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:343|Execute|isChinese|Request: ('1',)|{}|
+|2024-09-03 14:58:11,407|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:343|Execute|isChinese|Response: False|
+|2024-09-03 14:58:11,407|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:350|Execute|getUnicode|Response: None|
+|2024-09-03 14:58:11,407|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:499|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:11,434|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:499|Execute|mainEncrypt|Request: (<__main__.Application2 object at 0x000001CD47E36AE0>,)|{}|
+|2024-09-03 14:58:11,435|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12')|{'secretKey': '', 'code': 'sm4'}|
+|2024-09-03 14:58:11,435|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12', '', 'sm4')|{}|
+|2024-09-03 14:58:11,435|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 4OQ+a7xEz9NgFWJDtfmEwg==|
+|2024-09-03 14:58:11,435|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 4OQ+a7xEz9NgFWJDtfmEwg==|
+|2024-09-03 14:58:11,435|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12')|{'secretKey': '', 'code': 'md5'}|
+|2024-09-03 14:58:11,436|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12', '', 'md5')|{}|
+|2024-09-03 14:58:11,436|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: c20ad4d76fe97759aa27a0c99bff6710|
+|2024-09-03 14:58:11,436|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: c20ad4d76fe97759aa27a0c99bff6710|
+|2024-09-03 14:58:11,436|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12')|{'secretKey': '', 'code': 'sm3'}|
+|2024-09-03 14:58:11,436|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12', '', 'sm3')|{}|
+|2024-09-03 14:58:11,436|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 6F61C3AF9DCC39522A73A228507020BF5FB3DCE3AB176455DDF107DD685624CB|
+|2024-09-03 14:58:11,437|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 6F61C3AF9DCC39522A73A228507020BF5FB3DCE3AB176455DDF107DD685624CB|
+|2024-09-03 14:58:11,437|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12')|{'secretKey': '', 'code': 'unionsm3'}|
+|2024-09-03 14:58:11,437|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12', '', 'unionsm3')|{}|
+|2024-09-03 14:58:11,437|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 63EBC9BAB610AA25E1AF8A7C2CF1296EE511844F4FD9EB2A8DB1E3DDF0217E42|
+|2024-09-03 14:58:11,437|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 63EBC9BAB610AA25E1AF8A7C2CF1296EE511844F4FD9EB2A8DB1E3DDF0217E42|
+|2024-09-03 14:58:11,437|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12')|{'secretKey': '', 'code': 'sha256'}|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12', '', 'sha256')|{}|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12')|{'secretKey': '', 'code': 'base64'}|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555B0>, '12', '', 'base64')|{}|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: MTI=|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: MTI=|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:314|Execute|getUnixTime|Request: ('12',)|{'mod': 'time2data'}|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:314|Execute|getUnixTime|Response: 1970-01-01 08:00:12|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:350|Execute|getUnicode|Request: ('12',)|{}|
+|2024-09-03 14:58:11,438|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:343|Execute|isChinese|Request: ('12',)|{}|
+|2024-09-03 14:58:11,439|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:343|Execute|isChinese|Response: False|
+|2024-09-03 14:58:11,439|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:350|Execute|getUnicode|Response: None|
+|2024-09-03 14:58:11,439|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:499|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:11,763|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:499|Execute|mainEncrypt|Request: (<__main__.Application2 object at 0x000001CD47E36AE0>,)|{}|
+|2024-09-03 14:58:11,763|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123')|{'secretKey': '', 'code': 'sm4'}|
+|2024-09-03 14:58:11,763|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123', '', 'sm4')|{}|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: f7UXe0LdRPzA7ZQHIKNT0g==|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: f7UXe0LdRPzA7ZQHIKNT0g==|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123')|{'secretKey': '', 'code': 'md5'}|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123', '', 'md5')|{}|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 202cb962ac59075b964b07152d234b70|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 202cb962ac59075b964b07152d234b70|
+|2024-09-03 14:58:11,764|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123')|{'secretKey': '', 'code': 'sm3'}|
+|2024-09-03 14:58:11,765|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123', '', 'sm3')|{}|
+|2024-09-03 14:58:11,765|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 6E0F9E14344C5406A0CF5A3B4DFB665F87F4A771A31F7EDBB5C72874A32B2957|
+|2024-09-03 14:58:11,765|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 6E0F9E14344C5406A0CF5A3B4DFB665F87F4A771A31F7EDBB5C72874A32B2957|
+|2024-09-03 14:58:11,765|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123')|{'secretKey': '', 'code': 'unionsm3'}|
+|2024-09-03 14:58:11,765|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123', '', 'unionsm3')|{}|
+|2024-09-03 14:58:11,766|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: 293A99F0546A6915A40FF29D2A7EA8B875DEF59E7AFA3E5F09AD62CD748C1857|
+|2024-09-03 14:58:11,766|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: 293A99F0546A6915A40FF29D2A7EA8B875DEF59E7AFA3E5F09AD62CD748C1857|
+|2024-09-03 14:58:11,766|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123')|{'secretKey': '', 'code': 'sha256'}|
+|2024-09-03 14:58:11,766|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123', '', 'sha256')|{}|
+|2024-09-03 14:58:11,766|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123')|{'secretKey': '', 'code': 'base64'}|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Request: (<utils.encryptApi.KeyApi object at 0x000001CD47E555E0>, '123', '', 'base64')|{}|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:208|Execute|_encrypt|Response: MTIz|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.encryptApi:165|Execute|encrypt|Response: MTIz|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:314|Execute|getUnixTime|Request: ('123',)|{'mod': 'time2data'}|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:314|Execute|getUnixTime|Response: 1970-01-01 08:02:03|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:350|Execute|getUnicode|Request: ('123',)|{}|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:343|Execute|isChinese|Request: ('123',)|{}|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:343|Execute|isChinese|Response: False|
+|2024-09-03 14:58:11,767|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:350|Execute|getUnicode|Response: None|
+|2024-09-03 14:58:11,768|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:499|Execute|mainEncrypt|Response: None|
+|2024-09-03 14:58:12,172|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application3|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:58:12,183|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application3|Response: <__main__.Application3 object at 0x000001CD47E55550>|
+|2024-09-03 14:58:13,016|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:613|Execute|showData|Request: (<__main__.Application3 object at 0x000001CD47E55550>,)|{}|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:9|Execute|getName|Request: (1,)|{}|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:9|Execute|getName|Response: 莘心邦|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:51|Execute|getPhoneNumber|Request: ()|{}|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (8,)|{}|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 57752510|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:51|Execute|getPhoneNumber|Response: 15957752510|
+|2024-09-03 14:58:13,019|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:220|Execute|getTxSN|Request: ()|{}|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (13,)|{}|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 3363289228980|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:220|Execute|getTxSN|Response: 202409031458133363289228980|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (20,)|{}|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 97157552259853785024|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:131|Execute|getEmail|Request: ()|{}|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:131|Execute|getEmail|Response: msu1xwd@126.com|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:140|Execute|getAddress|Request: ()|{}|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:140|Execute|getAddress|Response: 宁国路47号-1-9|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:96|Execute|getBankCard|Request: ()|{'bankID': '102', 'cardType': 1}|
+|2024-09-03 14:58:13,020|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (10,)|{}|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 4126707300|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:96|Execute|getBankCard|Response: 622200412670730010|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:96|Execute|getBankCard|Request: ()|{'bankID': '102', 'cardType': 2}|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (10,)|{}|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 6508970341|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:96|Execute|getBankCard|Response: 4381256508970341|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:229|Execute|getOrganizingCode|Request: ()|{}|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (8, '123456789')|{}|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 29592361|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:229|Execute|getOrganizingCode|Response: 29592361B|
+|2024-09-03 14:58:13,021|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:243|Execute|getUscc|Request: ()|{}|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (1, '123456789ANY')|{}|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 9|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (1, '123459')|{}|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 3|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:229|Execute|getOrganizingCode|Request: ()|{}|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Request: (8, '123456789')|{}|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:209|Execute|getRandom|Response: 43679326|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:229|Execute|getOrganizingCode|Response: 436793267|
+|2024-09-03 14:58:13,022|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:243|Execute|getUscc|Response: 934401044367932675|
+|2024-09-03 14:58:13,023|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:652|Execute|getUuid|Request: ('DX',)|{}|
+|2024-09-03 14:58:13,023|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:652|Execute|getUuid|Response: A61878D6-A496-4011-9AFE-22B5EBDB8E80|
+|2024-09-03 14:58:13,023|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:613|Execute|showData|Response: None|
+|2024-09-03 14:58:15,273|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application4|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:58:15,282|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application4|Response: <__main__.Application4 object at 0x000001CD479EFEC0>|
+|2024-09-03 14:58:16,888|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Request: (<__main__.Application4 object at 0x000001CD479EFEC0>, 'sql')|{}|
+|2024-09-03 14:58:16,888|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:508|Execute|formatSql|Request: ('2\n',)|{}|
+|2024-09-03 14:58:16,888|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:518|Execute|formatSqls|Request: ('2\n',)|{}|
+|2024-09-03 14:58:16,889|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:418|Execute|checkJson|Request: ({'error_code': '0002', 'message': '输入错误无法解析'},)|{}|
+|2024-09-03 14:58:16,889|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:418|Execute|checkJson|Response: {
+    "error_code":"0002",
+    "message":"输入错误无法解析"
+}|
+|2024-09-03 14:58:16,889|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:518|Execute|formatSqls|Response: {
+    "error_code":"0002",
+    "message":"输入错误无法解析"
+}|
+|2024-09-03 14:58:16,889|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:508|Execute|formatSql|Response: {
+    "error_code":"0002",
+    "message":"输入错误无法解析"
+}|
+|2024-09-03 14:58:16,889|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Response: None|
+|2024-09-03 14:58:17,705|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Request: (<__main__.Application4 object at 0x000001CD479EFEC0>, 'json')|{}|
+|2024-09-03 14:58:17,705|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:453|Execute|formatJson|Request: ('2\n', 0)|{'sort': True}|
+|2024-09-03 14:58:17,705|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:418|Execute|checkJson|Request: ('2\n', True, 0)|{}|
+|2024-09-03 14:58:17,705|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:418|Execute|checkJson|Response: 2|
+|2024-09-03 14:58:17,705|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:453|Execute|formatJson|Response: 2|
+|2024-09-03 14:58:17,705|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Response: None|
+|2024-09-03 14:58:18,377|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Request: (<__main__.Application4 object at 0x000001CD479EFEC0>, 'JsonToStr')|{}|
+|2024-09-03 14:58:18,377|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:453|Execute|formatJson|Request: ('2\n', 1)|{}|
+|2024-09-03 14:58:18,377|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:418|Execute|checkJson|Request: ('2\n', False)|{'printType': 0}|
+|2024-09-03 14:58:18,377|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:418|Execute|checkJson|Response: 2|
+|2024-09-03 14:58:18,377|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:453|Execute|formatJson|Response: "  2\n" +
+|
+|2024-09-03 14:58:18,377|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Response: None|
+|2024-09-03 14:58:19,128|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Request: (<__main__.Application4 object at 0x000001CD479EFEC0>, 'JsonToYaml')|{}|
+|2024-09-03 14:58:19,128|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:733|Execute|formatData|Response: None|
+|2024-09-03 14:58:20,429|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application5|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:58:20,442|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application5|Response: <__main__.Application5 object at 0x000001CD47E56960>|
+|2024-09-03 14:58:21,486|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application6|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:58:21,509|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application6|Response: <__main__.Application6 object at 0x000001CD47E57590>|
+|2024-09-03 14:58:22,608|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:1060|Execute|getIDCard|Request: (<__main__.Application6 object at 0x000001CD47E57590>,)|{'method': 'in'}|
+|2024-09-03 14:58:22,612|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:1060|Execute|getIDCard|Response: None|
+|2024-09-03 14:58:25,672|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:1060|Execute|getIDCard|Request: (<__main__.Application6 object at 0x000001CD47E57590>,)|{'method': 'out'}|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:1013|Execute|getMonth|Request: (<__main__.Application6 object at 0x000001CD47E57590>, 1, 2000)|{}|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:196|Execute|getDays|Request: (1, 2000)|{}|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:196|Execute|getDays|Response: 31|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:1013|Execute|getMonth|Response: 31|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.common:194|Execute|getSystime|Request: (<utils.common.Common object at 0x000001CD47E57BC0>,)|{}|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.common:194|Execute|getSystime|Response: 20240903|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:365|Execute|getSigns|Request: ('20000101',)|{}|
+|2024-09-03 14:58:25,673|INFO|192.168.103.79-MS-EWJHQVNCUDUG|L|15880|MainThread-thread-16984|utils.DataCenter:365|Execute|getSigns|Response: ('摩羯座', '龙')|
+|2024-09-03 14:58:25,674|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:1060|Execute|getIDCard|Response: None|
+|2024-09-03 14:58:26,946|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application7|Request: (<tkinter.Tk object .>,)|{}|
+|2024-09-03 14:58:26,958|INFO|192.168.103.79-MS-EWJHQVNCUDUG|test_tools|15880|MainThread-thread-16984|__main__:0|Execute|Application7|Response: .!application7|
